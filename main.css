@@ -5,9 +5,23 @@
     margin: 0;
 }
 
+body > header {
+    background-color: aqua;
+    padding: 16px 0;
+}
+
+header {
+    display: flex;
+}
+
 header li {
     display: inline;
 
+}
+
+img {
+    width: 640px;    
+    height: 420px;    
 }
 
 .container {
@@ -24,6 +38,28 @@ header li {
 .articles article img {
     height: 100px;
 }
+
 .articles article {
     width: 30%;
 }
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article a {
+    background-color: blueviolet;
+    padding: 6px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#tecnology {
+    background-color: rgb(113, 133, 222);
+}
+
+#cinema {
+    background-color: rgb(209, 149, 96);
+}
+
